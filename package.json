@@ -1,0 +1,33 @@
+{
+  "name": "node-ecosystem",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "lint": "eslint '**/*.js'",
+    "test": "jest --coverage --verbose",
+    "test-watch": "jest --watchAll --verbose --coverage",
+    "jsdoc": "jsdoc -c ./docs/config/jsdoc.config.json",
+    "watch": "jest --watchAll --coverage --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alwynblake/Node-Ecosystem.git"
+  },
+  "author": "Alistair Blake",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alwynblake/Node-Ecosystem/issues"
+  },
+  "homepage": "https://github.com/Alwynblake/Node-Ecosystem#readme",
+  "dependencies": {
+    "eslint": "^6.5.1",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jest": "^22.19.0",
+    "jest": "^24.9.0",
+    "jsdoc": "^3.6.3",
+    "save-dev": "0.0.1-security"
+  }
+}
