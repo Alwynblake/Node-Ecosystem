@@ -4,7 +4,7 @@ const validator = require('../lib/validator.js');
 
 describe('validator module performs basic validation of', () => {
 
-  // TODO: Make this series of tests less repetitive ... DRY it out
+  // TODO: Make this series of tests less repetitive ... TRY it out
 
   it('strings', () => {
     let str = 'yes';
@@ -22,7 +22,7 @@ describe('validator module performs basic validation of', () => {
   });
 
   it('numbers', () => {
-    expect(true).toBeFalsy();
+    expect(validator.isNumber(num)).toBeTruthy();
   });
 
   it('arrays', () => {
